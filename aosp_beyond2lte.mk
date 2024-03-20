@@ -51,9 +51,6 @@ TARGET_INCLUDE_STOCK_ACORE := false
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1440
 
-## Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 ## Device identifier, this must come after all inclusions
 PRODUCT_NAME := aosp_beyond2lte
 PRODUCT_DEVICE := beyond2lte
