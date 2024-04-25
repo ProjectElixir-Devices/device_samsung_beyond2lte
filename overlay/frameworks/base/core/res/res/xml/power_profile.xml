@@ -180,38 +180,4 @@
         <value>650000</value>
         <value>702000</value>
     </array>
-    <array name="speaker.media">
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-    </array>
-    <array name="speaker.call">
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-    </array>
 </device>
