@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_beyond2lte.mk
+    $(LOCAL_DIR)/lineage_beyond2lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_beyond2lte-eng \
-    aosp_beyond2lte-user \
-    aosp_beyond2lte-userdebug
+    lineage_beyond2lte-eng \
+    lineage_beyond2lte-user \
+    lineage_beyond2lte-userdebug
