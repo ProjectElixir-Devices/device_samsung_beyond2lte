@@ -1,10 +1,10 @@
 #!/bin/bash
-rm -rf packages/apps/ElixirGlyph
+
 echo 'Starting Cloning repos for beyond2lte'
 echo 'Cloning Kernel tree [1/7]'
 # Kernel for exynos9820
 rm -rf kernel/samsung/exynos9820
-git clone --depth=1 https://github.com/ProjectMatrixx-exynos9820/android_kernel_samsung_exynos9820 -b kernelsu kernel/samsung/exynos9820
+git clone --depth=1 https://github.com/Infinity-X-Project/android_kernel_samsung_exynos9820 -b kernelsu kernel/samsung/exynos9820
 
 echo 'Cloning Common Tree [2/7]'
 # Common tree for exynos9820-common
@@ -27,13 +27,13 @@ echo 'Cloning Hardware Samsung [5/7]'
 # Hardware OSS parts for Samsung
 mv hardware/samsung/nfc .
 rm -rf hardware/samsung
-git clone https://github.com/BananaDroid-982x/android_hardware_samsung -b lineage-22.0 hardware/samsung
+git clone -b lineage-22.0 https://github.com/BananaDroid-982x/android_hardware_samsung hardware/samsung
 mv nfc hardware/samsung
 
 echo 'Cloning Samsung_Slsi and Linaro BSP repos [6/7]'
 # SLSI Sepolicy
 rm -rf device/samsung_slsi/sepolicy
-git clone https://github.com/BananaDroid-982x/android_device_samsung_slsi_sepolicy -b lineage-21.0 device/samsung_slsi/sepolicy
+git clone -b lineage-21.0 https://github.com/BananaDroid-982x/android_device_samsung_slsi_sepolicy device/samsung_slsi/sepolicy
 # Linaro BSP
 rm -rf hardware/samsung_slsi-linaro
 git clone https://github.com/linux4-bringup-priv/android_hardware_samsung_slsi-linaro_graphics.git -b lineage-21.0 hardware/samsung_slsi-linaro/graphics
