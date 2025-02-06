@@ -36,6 +36,21 @@ TARGET_SCREEN_WIDTH := 1440
 ## Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Project-Elixir
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_BUILD_APERTURE_CAMERA := true
+
+ELIXIR_BUILD_TYPE := OFFICIAL
+BUILD_USERNAME := FrEeRuNnEr4EvEr
+BUILD_HOSTNAME := Elixir
+WITH_GMS := true
+
+TARGET_INCLUDE_STOCK_ACORE := false
+EXTRA_UDFPS_ANIMATIONS := true
+
+TARGET_BOOT_ANIMATION_RES := 1440
+
 ## Device identifier, this must come after all inclusions
 PRODUCT_NAME := lineage_beyond2lte
 PRODUCT_DEVICE := beyond2lte
